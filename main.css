@@ -1,0 +1,57 @@
+main.css
+
+h1 {
+    color:yellow
+}
+
+.grid { /* this is a comment, the '.' indicates classes */
+    color: green;
+    width: 20px;
+}
+
+#header-block { /* this is an ID header block because there's a # in front */
+    color: green;
+    width: 30px;
+}
+
+
+.barry { /* this is an ID header block because there's a # in front */
+    width: 200px;
+    height: 400px;
+    z-index: -1;
+    box-shadow: 10px 5px 20px grey; /**first value is x offsett, then y offset, blur, color"*/
+
+
+}
+
+.bee {
+    font-size: 40px;
+    color: rgb(180, 147, 153);
+    letter-spacing: 5px;
+    line-height: 70px;
+    font-weight: 500; /*boldness of font (in percentages), or lighter, bold etc*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+
+    text-decoration: underline; /* can make it dotted, overllined etc */
+    text-decoration: 5px;
+
+    /* to do them all together in 1 line... */
+    text-decoration: underline rgb(221, 187, 219) dotted 10px;
+
+    /**declarations that come after, will over right the ones' before"*/
+
+    text-transform: uppercase;
+
+}
+
+.regular-div { /* this is an ID header block because there's a # in front */
+    background-color: beige;
+    opacity: .3;
+    
+}
+
+* {
+    box-sizing: border-box;
+    color: red;
+}
