@@ -1,5 +1,11 @@
 main.css
 
+
+* {
+    box-sizing: border-box;
+}
+
+
 h1 {
     color:yellow
 }
@@ -10,17 +16,21 @@ h1 {
 }
 
 #header-block { /* this is an ID header block because there's a # in front */
-    color: green;
+    color: rgb(135, 201, 135);
     width: 30px;
 }
 
 
 .barry { /* this is an ID header block because there's a # in front */
-    width: 200px;
-    height: 400px;
+    height: 500px;
+    width: 300px;
     z-index: -1;
     box-shadow: 10px 5px 20px grey; /**first value is x offsett, then y offset, blur, color"*/
-
+    border-radius: 20px;
+    padding: 40px;
+    border: 5px solid #000;
+    margin-top: 20px;
+    margin: 20px 30px 20px 30px;
 
 }
 
@@ -48,10 +58,7 @@ h1 {
 .regular-div { /* this is an ID header block because there's a # in front */
     background-color: beige;
     opacity: .3;
-    
+
 }
 
-* {
-    box-sizing: border-box;
-    color: red;
-}
+
