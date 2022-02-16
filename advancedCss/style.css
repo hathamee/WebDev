@@ -1,0 +1,40 @@
+/* body {
+    color: rgb(184, 140, 140);
+    background-color: rgb(54, 54, 54);
+    font-size: 50px;
+}
+
+h1 {
+    color: rgb(240, 197, 197);
+    font-size: 100px;
+}
+
+p {
+    color: white;
+    font-size: 45px;
+} */
+
+.box-container {
+    display: block;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+
+.box-one {
+    background-color: rgb(216, 216, 193);
+    color: white;
+}
+
+.box-two {
+    background-color: rgb(151, 151, 134);
+    color: darkgrey;
+}
+
+.box-three {
+    background-color: rgb(95, 95, 86);
+    color: rgb(85, 85, 85);
+}
