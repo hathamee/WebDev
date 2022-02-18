@@ -44,6 +44,20 @@ h2 {
   height: 50%;
 }
 
+.superskinny {
+  height: 11.14%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  right: 10%;
+  width: 33.3%;
+  height: 33.3%;
+}
+
 .threevert {
   height: 33.3%;
 }
@@ -108,6 +122,5 @@ img {
   position: relative;
   display: inline-block;
   margin-right: 64%;
-  margin-top: 50%;
-  /* position: center; */
+  margin-top: 45%;
 }
