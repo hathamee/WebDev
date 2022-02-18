@@ -1,5 +1,5 @@
 function printHome(city, state, country) {
-    console.log(`I am from ${city}, ${state}, and ${country} !`)
+    console.log(`I am from ${city}, ${state}, and ${country}!`)
 }
 
 var city = 'Roseville';
