@@ -124,3 +124,44 @@ img {
   margin-right: 64%;
   margin-top: 45%;
 }
+
+.top {
+  position: relative;
+  margin-top: 0px;
+  height: 33.3%;
+}
+
+.bottom {
+  margin-top: 20%;
+  height: 33.3%;
+}
+
+.right {
+  /* margin-left: 60%; */
+  width: 33.3%;
+}
+
+.topr {
+  margin: 0px, 0px, 33.3%, 76%;
+}
+
+.left {
+  margin-left: 0px;
+  width: 33.3%;
+}
+
+.midvert {
+  margin-right: 50%;
+}
+
+.midhoriz {
+  margin-top: 50%;
+}
+
+.relative {
+  position: relative;
+}
+
+.short {
+  height: 33.3%;
+}
