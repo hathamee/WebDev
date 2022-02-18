@@ -15,6 +15,12 @@
   align-items: center;
 }
 
+.rectangle {
+  margin-top: 0%;
+  width: 50%;
+  margin-right: 33.3%;
+}
+
 .para {
   font-weight: 300;
   margin-left: 10px;
@@ -44,8 +50,12 @@ h2 {
   height: 50%;
 }
 
+.onevert {
+  height: 70%;
+}
+
 .superskinny {
-  height: 11.14%;
+  height: 12.5%;
 }
 
 .flex {
@@ -126,9 +136,9 @@ img {
 }
 
 .top {
-  position: relative;
+  position: absolute;
   margin-top: 0px;
-  height: 33.3%;
+  height: 60%;
 }
 
 .bottom {
@@ -145,11 +155,6 @@ img {
   margin: 0px, 0px, 33.3%, 76%;
 }
 
-.left {
-  margin-left: 0px;
-  width: 33.3%;
-}
-
 .midvert {
   margin-right: 50%;
 }
@@ -164,4 +169,24 @@ img {
 
 .short {
   height: 33.3%;
+}
+
+.left {
+  position: relative;
+  margin-left: 0px;
+  width: 34%;
+  height: 50%;
+}
+
+.two {
+  height: 75%;
+}
+
+.three {
+  margin-left: 34%;  
+  width: 66.37%;
+}
+
+.moreskinny {
+  height: 10%;
 }
