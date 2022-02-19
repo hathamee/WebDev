@@ -39,6 +39,7 @@ h2 {
   width: 500px;
   border-style: solid;
   margin-bottom: 5rem;
+  position: relative;
 }
 
 .horiz {
@@ -55,7 +56,7 @@ h2 {
 }
 
 .superskinny {
-  height: 12.5%;
+  height: 11.17%;
 }
 
 .flex {
@@ -189,4 +190,8 @@ img {
 
 .moreskinny {
   height: 10%;
+}
+
+.above {
+  z-index: 9;
 }
