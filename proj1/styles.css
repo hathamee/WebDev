@@ -1,0 +1,55 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60%;
+    border-radius: 15%;
+    background-color: blueviolet;
+    top: 0;
+    z-index: 999;
+    /* margin-bottom: 100%; */
+    align-items: flex-start;
+  }
+  
+  /* For the aesthetics */
+  .nav-button {
+    color: rgb(164, 175, 10);
+  }
+
+  div {
+    background-color: rgba(0, 230, 153, 0.644);
+    padding: 3%;
+    display: flex;
+  }
+
+  .proj-col {
+      background-color: rgb(166, 60, 175);
+      border-radius: 15%;
+      padding: 10px;
+    }
+
+  .portfolio {
+      background-color: pink;
+      border-radius: 15%;
+      flex-direction: column
+  }
+
+  .navbar {
+      background-color: beige;
+      background-attachment: scroll;
+  } 
+
+  .splash-page {
+      background-color: black;
+  }
+
+  h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    size: 50%;
+  }
+
+  .logo {
+      position: absolute;
+      top: 0;
+      left: 30%;
+      width: 10%;
+  }
