@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- <button id="button1">Button 1</button>
+
+        <button class="event-button">Click me!</button> -->
+
+        <input placeholder="type into me" class="input-to-copy"/>
+        <p class="p-to-copy-to">Nothing has happened yet</p>
+        <script>
+            // document
+            //   .getElementById("button1")
+            //   .addEventListener("click", function (event) {
+            //     alert(`You clicked on ${event.target.innerText}`);
+            // });
+
+            // var button = document.querySelector('.event-button');
+            // button.addEventListener("click", function () {
+            //     alert('Hey There, you looking cute today.');
+            // });
+
+            var input = document.querySelector(".input-to-copy");
+            var paragraph = document.querySelector(".p-to-copy-to");
+            
+            input.addEventListener("keyup", function () {
+                paragraph.innerText = input.value;
+            });
+        </script>
+    </body>
+</html>

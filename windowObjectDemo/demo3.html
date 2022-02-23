@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div class="button-container">
+            <button> 1</button>
+            <button> 2</button>
+            <button> 3</button>
+            <button> 4</button>
+            <button> 5</button>
+        </div>
+
+        <script>
+            document.querySelector(".button-container").addEventListener("click", function(addEventListener) {
+                alert(`Hey, you clicked on Button ${event.target.innerText}`)
+            })
+        </script>
+    </body>
+</html>
