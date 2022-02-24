@@ -10,7 +10,6 @@
     position: relative;
   }
   
-  /* For the aesthetics */
   .nav-button {
     color: white;
     display: flex;
@@ -118,7 +117,7 @@
     background-color: white;
     border-radius: 15px;
     display: flex;
-    width: 30%;
+    width: 40%;
     text-align: right;
     margin-bottom: 10px;
     margin-top: 5px;
@@ -150,8 +149,8 @@
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 15px;
-    /* width: 50%; */
-    margin-bottom: 70%;
+    width: 40%;
+    height: 70%;
     margin-top: 20px;
     margin-left: 50px;
     font-size: 20px;
@@ -161,16 +160,30 @@
     background-color: white;
     border-radius: 15px;
     display: flex;
-    width: 30%;
-    font-size: 20px;
+    width: 40%;
+    font-size: 15px;
     margin: 5%;
-    height: inherit;
+    margin-left: -40%;
+    margin-bottom: 15px;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
   }
 
   .pic {
-    width: 30%;
+    width: 40%;
     border-radius: 15px;
     margin-left: 50px;
     height: 250px;
     margin-top: 20px;
+  }
+
+  .picofme {
+    display: flex;
+    position: relative; 
+    width: 20%;
+    border-radius: 15px;
+    margin-right: -10%;
+    height: 5%;
+    margin-top: 10%;
+    z-index: 9999;
   }
