@@ -13,23 +13,31 @@
 <body>
     <div class="splash-page">
         <div class="text">
+            <a id="aboutpage"></a>
             <h1>Hathamee Bensalem</h1>
             <p>I am a second year student at UC Berkeley studying for a Bachelor's of Science in 
                 Electrical Engineering & Computer Science with a minor in Public Policy. Keep scrolling to learn more about me!
             </p>
-            <button>Contact Me!</button>
+            <button onclick="myFunction()">Contact Me!</button>
         </div>
         <div class="signature">
             <img src="Hathamee_Bensalem_cocosign.png">
         </div>
         <img class="picofme" src="portrait.jpg">
         <div class="nav">
-            <div class="nav-button">About</div>
-            <div class="nav-button">Projects</div>
-            <div class="nav-button">Contact</div>
+            <div class="nav-button">
+                <a href="#aboutpage">About</a>
+            </div>
+            <div class="nav-button">
+                <a href="#projectspage">Projects</a>
+            </div>
+            <div class="nav-button">
+                <a href="#contactpage">Contact</a>
+            </div>
         </div>
     </div>
     <div class="portfolio">
+        <a id="projectspage"></a>
         <div class="proj-col">
             <h2>Gitlet</h2>
         </div>
@@ -42,19 +50,41 @@
         <div class="proj-details">
             <img class="pic" src="code.jpg">
             <h2 class="proj-title">Jump</h2>
-            <h3 class="description">This is a cool project that I built that had some AI</h3>
+            <h3 class="description">I programmed a dice game with an AI which would choose the optimal move. To minimize computation time and the number of nodes evaluated,
+                I usedAlpha-Beta pruning.</h3>
 
         </div>
         <div class="proj-desc">
             <img class="pic" src="code.jpg">
             <h2 class="proj-title">Voice Controlled Robotic Car</h2>
-            <h3 class="description">I built a car. It's voice controlled, and a robot</h3>
+            <h3 class="description">I built a robotic car over course of 4 months using engineering principles related to circuits.
+                The first half was the front end circuit where I cascaded a lowpass filter and a highpass filter to create a bandpass filter which 
+                only captured the range of humna voice. I implemented closed loop feedback to maintain the car’s straight direction & used k-means clustering 
+                as well as PCA on command audio recordings to filter commands and respond appropriately. The 4 commands available were turn right, turn left, go far and go close.</h3>
         </div>
         <div class="proj-desc">
             <img class="pic" src="code.jpg">
             <h2 class="proj-title">Gitlet</h2>
-            <h3 class="description">Similar to git. A version control system</h3>
+            <h3 class="description">Gitlet is a version control system (similar to git). I implemented persistence by storing contents to directories. 
+                I had the features init, add, commit, status as well as merge and some others. For merge, I used a breadth-first search algorithm to detect 
+                split point between the 2 files and merged contents according to given directions.</h3>
         </div>
     </div>
+    <div class="bottom">
+        <a id="contactpage"></a>
+        <a class="contact" href="https://www.instagram.com/hathamee/" target="_blank">
+            <img src="ig_logo.png" alt="My instagram" height="17%">
+        </a>
+        <a  class="contact" href="https://www.linkedin.com/in/hathamee/"  target="_blank">
+            <img src="linkeding.png" alt="My linkedin" height="17%">
+        </a>
+    </div>
+
+    <script> 
+    function myFunction() {
+        alert("My email is hathamee@berkeley.edu");
+    }
+    </script>
+
 </body>
 </html>

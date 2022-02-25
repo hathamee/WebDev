@@ -27,6 +27,7 @@
       background-color: black;
       flex-direction: column;
       width: 100%;
+      height: 80%;
       text-align: center;
   }
 
@@ -34,7 +35,7 @@
       /* the white top left side */
       background-color: whitesmoke;
       display: flex;
-      height: 40%;
+      height: 30%;
       width: 100%;
       padding-top: 0;
       padding-bottom: 0px;
@@ -164,9 +165,10 @@
     font-size: 15px;
     margin: 5%;
     margin-left: -40%;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     align-items: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    text-align: left;
+    font-family: serif;    
   }
 
   .pic {
@@ -175,6 +177,7 @@
     margin-left: 50px;
     height: 250px;
     margin-top: 20px;
+    margin-bottom: 5px;
   }
 
   .picofme {
@@ -187,3 +190,26 @@
     margin-top: 10%;
     z-index: 9999;
   }
+
+  .bottom {
+    display: flex;
+    background-color: darkgray;
+    flex-direction: row-reverse;
+    height: 75px;
+    justify-content: space-around;
+  }
+
+  .contact {
+    margin-top: 5px;
+    height: 500%;  
+    justify-content: space-between;
+}
+
+
+a { color:red } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:darkgrey; }
+a:hover { text-decoration: none; color:white; }
+a:hover, a:active { text-decoration: none; color:lightpink }
