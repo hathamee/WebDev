@@ -28,15 +28,15 @@ function changer(object, key, value) {
 
 
 // Question 5
-//   async function promise_me(truthy) {
-//     const a = new Promise((resolve, reject) => {
-//         console.log(_____)
-//         ______(______)
-//     })
-//     console.log(2)
-//     console.log(3)
-//     console.log(4)
-//     const five = ______ ______
-//     console.log(five)
-//     return five
-// }
+  async function promise_me(truthy) {
+    const a = new Promise((resolve, reject) => {
+        console.log(1)
+        await(a)
+    })
+    console.log(2)
+    console.log(3)
+    console.log(4)
+    const five = console.log(5)
+    console.log(five)
+    return five
+}
