@@ -1,8 +1,8 @@
 // Question 1
 function max(iterable, key) {
-    var maximum = 0;
+    var maximum = iterable[0];
     for (var i in iterable) {
-      var curr = key.i;
+      var curr = key(i);
       if (curr >= maximum) {
         maximum = curr;
       }
@@ -10,24 +10,21 @@ function max(iterable, key) {
     return maximum;
   }
 
-console.log(max([0, 1, 2, 3]))
-
-
 // Question 2
-const reverser = max.reverser;
+const reverser = (i) => -i;
 
 // Question 4
-// function changer(object, key, value) {
-//     var ______ = ______;
-//     if (Array.isArray(prev)) {
-//       ______;
-//     } else if (typeof prev == 'object' && prev != null) {
-//       ______ = ______;
-//     } else {
-//       ______ = ______;
-//     }
-//     return null;
-//   }
+function changer(object, key, value) {
+    var prev = object[key];
+    if (Array.isArray(prev)) {
+      object[key].append(value);
+    } else if (typeof prev == 'object' && prev != null) {
+      prev[key] = value;
+    } else {
+      object[key] = value;
+    }
+    return null;
+  }
 
 
 // Question 5
